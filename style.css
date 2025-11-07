@@ -1,0 +1,375 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    padding-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+
+span {
+    color: yellow;
+}
+
+.section1 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.button1 {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+.div2 {
+    background-image: url(home_bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.p2 {
+    width: 440px;
+}
+
+.button2 {
+    padding: 12px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 90px;
+    background-color: rgba();
+    width: 90%;
+    background: #f4f4f4;
+}
+
+.section2 {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.img1 {
+    margin-left: 50px;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.section4 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    width: 90%;
+    margin: auto;
+    padding-top: 70px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.s {
+    background-image: url(offer-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin-top: 50px;
+}
+
+.section5 {
+    display: flex;
+}
+
+.s1 {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.p {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(6, auto);
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.button3 {
+    background-color: orange;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: 1px white solid;
+    color: white;
+    margin-left: 50px;
+}
+
+.ss {
+    margin-left: 510px;
+    margin-top: 30px;
+}
+
+.img5 {
+    width: 100%;
+    height: 20%;
+}
+
+.section8 {
+    background-image: url(daytime_bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25vh;
+    margin-top: 50px;
+}
+
+.section9 {
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.z {
+    margin-left: 17px;
+}
+
+.section17 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.zz {
+    padding-top: 20px;
+}
+
+textarea {
+    display: block;
+}
+
+.s20 {
+    padding: 10px;
+    background-color: orange;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.section11 img {
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.section10 {
+    background-image: url(offer-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.section11 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    width: 60%;
+    margin: auto;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.xx i {
+    font-size: 35px;
+}
+
+
+form input {
+    display: block;
+    width: 400px;
+    height: 3vh;
+    margin-top: 15px;
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+form button {
+    display: block;
+    background-color: orange;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.section13 {
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+form textarea {
+    width: 400px;
+    height: 13vh;
+    margin-top: 15px;
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+::placeholder {
+    padding-left: 9px;
+}
+
+footer {
+    background-color: rgb(49, 49, 124);
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.section11 img:hover {
+    transform: scale(1.2);
+}
+
+.section11 img {
+    transition: 1s;
+}
+
+.span1 {
+    position: relative;
+    left: 170px;
+    bottom: 5px;
+    right: 50px;
+}
+
+.h5 {
+    border-bottom: black 1px dashed;
+}
+
+@media (max-width: 992px) {
+    nav {
+        gap: 10px;
+    }
+
+    .section2,
+    .section3 {
+        text-align: center;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* للموبايل */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .section1 h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .section4 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div5 {
+        width: 90%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .section5 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img2 img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .section11 img {
+        width: 100%;
+        height: auto;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input,
+    textarea,
+    button {
+        width: 100%;
+    }
+}
+
+/* للشاشات الصغيرة جداً */
+@media (max-width: 480px) {
+    header img {
+        width: 60px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .button1,
+    .button2,
+    .button3 {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
